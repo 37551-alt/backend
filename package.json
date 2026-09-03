@@ -1,23 +1,19 @@
 {
-  "name": "backend-api",
+  "name": "front-3c",
+  "private": true,
   "version": "1.0.0",
-  "description": "API educacional com Node.js, Express e MongoDB Atlas",
-  "main": "src/app.js",
+  "type": "module",
   "scripts": {
-    "dev": "nodemon src/app.js",
-    "start": "node src/app.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongodb": "^7.6.0",
-    "mongoose": "^8.4.1",
-    "nodemailer": "^8.0.5"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.3"
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
   }
 }
