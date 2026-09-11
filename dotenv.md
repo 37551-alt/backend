@@ -26,5 +26,5 @@ EMAIL_USER=seuemail@gmail.com
 EMAIL_PASS=sua_senha_de_app_gmail
 
 # URL do frontend (usado nos links do e-mail de recuperação)
-FRONTEND_URL=http://localhost:5173
+FRONTEND_URL=https://frontend-lake-nine-52.vercel.app
 
